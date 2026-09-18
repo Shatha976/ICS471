@@ -96,12 +96,14 @@ figures/
 ├── sample_grid.png
 └── sample_varieties.png
 
-src/
-└── explore_dataset.py         # dataset inspection and split
-
 results/
 ├── dataset_stats.json         # dataset statistics
 └── split_manifest.csv         # train/validation/test split manifest
+
+src/
+└── explore_dataset.py         # dataset inspection and split
+
+
 ```
 
 ## Citation
