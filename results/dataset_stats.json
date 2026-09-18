@@ -1,0 +1,153 @@
+{
+  "n_images": 8079,
+  "image_sizes": {
+    "224x224": 8079
+  },
+  "image_modes": {
+    "RGB": 8079
+  },
+  "n_palms": 29,
+  "palms_per_variety": {
+    "Barhi": 5,
+    "Khalas": 5,
+    "Meneifi": 5,
+    "NabootSaif": 5,
+    "Sullaj": 9
+  },
+  "images_per_palm_min_median_max": [
+    109,
+    277,
+    491
+  ],
+  "n_variety_labelled": 8072,
+  "n_maturity7_labelled": 6647,
+  "n_maturity7_unlabelled": 1432,
+  "variety_counts_all": {
+    "Barhi": 1811,
+    "Khalas": 1385,
+    "Meneifi": 1295,
+    "NabootSaif": 1424,
+    "Sullaj": 2157
+  },
+  "maturity7_counts_all": {
+    "1_Immature-1": 1569,
+    "2_Immature-2": 738,
+    "3_Pre-Khalal": 665,
+    "4_Khalal": 659,
+    "5_KhalalwithRutab": 1660,
+    "6_Pre-Tamar": 695,
+    "7_Tamar": 661
+  },
+  "authors_split_leakage": {
+    "types": {
+      "palms_in_both": 29,
+      "test_images": 3542,
+      "test_images_sharing_palm_and_session_with_train": 3540
+    },
+    "maturity7": {
+      "palms_in_both": 29,
+      "test_images": 3420,
+      "test_images_sharing_palm_and_session_with_train": 3418
+    }
+  },
+  "split_search": {
+    "trials": 60000,
+    "seed": 42,
+    "best_score": 0.079
+  },
+  "palms": {
+    "train": [
+      "B3",
+      "B4",
+      "B5",
+      "K2",
+      "K3",
+      "K4",
+      "M1",
+      "M2",
+      "M4",
+      "N1",
+      "N4",
+      "N5",
+      "S1",
+      "S3",
+      "S4",
+      "S5",
+      "S7",
+      "S8",
+      "S9"
+    ],
+    "val": [
+      "B1",
+      "K1",
+      "M5",
+      "N2",
+      "S2"
+    ],
+    "test": [
+      "B2",
+      "K5",
+      "M3",
+      "N3",
+      "S6"
+    ]
+  },
+  "maturity7_by_split": {
+    "train": {
+      "1_Immature-1": 1078,
+      "2_Immature-2": 506,
+      "3_Pre-Khalal": 494,
+      "4_Khalal": 426,
+      "5_KhalalwithRutab": 1161,
+      "6_Pre-Tamar": 456,
+      "7_Tamar": 464,
+      "_total": 4585
+    },
+    "val": {
+      "1_Immature-1": 273,
+      "2_Immature-2": 106,
+      "3_Pre-Khalal": 75,
+      "4_Khalal": 119,
+      "5_KhalalwithRutab": 229,
+      "6_Pre-Tamar": 123,
+      "7_Tamar": 77,
+      "_total": 1002
+    },
+    "test": {
+      "1_Immature-1": 218,
+      "2_Immature-2": 126,
+      "3_Pre-Khalal": 96,
+      "4_Khalal": 114,
+      "5_KhalalwithRutab": 270,
+      "6_Pre-Tamar": 116,
+      "7_Tamar": 120,
+      "_total": 1060
+    }
+  },
+  "variety_by_split": {
+    "train": {
+      "Barhi": 1263,
+      "Khalas": 830,
+      "Meneifi": 765,
+      "NabootSaif": 877,
+      "Sullaj": 1764,
+      "_total": 5499
+    },
+    "val": {
+      "Barhi": 267,
+      "Khalas": 213,
+      "Meneifi": 285,
+      "NabootSaif": 286,
+      "Sullaj": 271,
+      "_total": 1322
+    },
+    "test": {
+      "Barhi": 281,
+      "Khalas": 342,
+      "Meneifi": 245,
+      "NabootSaif": 261,
+      "Sullaj": 122,
+      "_total": 1251
+    }
+  }
+}
