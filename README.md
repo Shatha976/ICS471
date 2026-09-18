@@ -86,12 +86,22 @@ and the number is the palm. The same split works for the variety task (5,499 / 1
 
 ## Repository layout
 
-```
-data/README.md             how to get the dataset (images are not committed)
-figures/                   plots used in the proposal
-src/explore_dataset.py     dataset inspection and split
-results/                   statistics and the split manifest
+```text
+data/
+└── README.md                  # how to get the dataset (images are not committed)
 
+figures/
+├── class_distribution.png
+├── palm_split.png
+├── sample_grid.png
+└── sample_varieties.png
+
+src/
+└── explore_dataset.py         # dataset inspection and split
+
+results/
+├── dataset_stats.json         # dataset statistics
+└── split_manifest.csv         # train/validation/test split manifest
 ```
 
 ## Citation
