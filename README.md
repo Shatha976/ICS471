@@ -88,7 +88,7 @@ and the number is the palm. The same split works for the variety task (5,499 / 1
 
 ```text
 data/
-└── README.md                  # how to get the dataset (images are not committed)
+└── README.md                  
 
 figures/
 ├── class_distribution.png
@@ -97,12 +97,11 @@ figures/
 └── sample_varieties.png
 
 results/
-├── dataset_stats.json         # dataset statistics
-└── split_manifest.csv         # train/validation/test split manifest
-
+├── dataset_stats.json         
+└── split_manifest.csv
+     
 src/
-└── explore_dataset.py         # dataset inspection and split
-
+└── explore_dataset.py         
 
 ```
 
