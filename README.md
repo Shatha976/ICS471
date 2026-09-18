@@ -87,11 +87,11 @@ and the number is the palm. The same split works for the variety task (5,499 / 1
 ## Repository layout
 
 ```
-src/explore_dataset.py     dataset inspection and split
-figures/                   plots used in the proposal
-results/                   statistics and the split manifest
 data/README.md             how to get the dataset (images are not committed)
-requirements.txt
+figures/                   plots used in the proposal
+src/explore_dataset.py     dataset inspection and split
+results/                   statistics and the split manifest
+
 ```
 
 ## Citation
